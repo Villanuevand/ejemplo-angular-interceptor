@@ -41,5 +41,5 @@ angular.module('app', [])
         $httpProvider.interceptors.push(interceptor);
     })
     .run(function ($http) {
-        $http.get('https://api.github.com/users/villanasuevand');
+        $http.get('https://api.github.com/users/villanuevand');
     });
